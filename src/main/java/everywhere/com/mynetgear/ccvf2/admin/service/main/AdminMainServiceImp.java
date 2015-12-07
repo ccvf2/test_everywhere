@@ -18,6 +18,8 @@ public class AdminMainServiceImp implements AdminMainService {
 	@Autowired
 	private AdminMainDao adminMainDao;
 	
+	//곽성국
+	//전 서비스를 추가했습니다.
 	@Override
 	public void mainPage(ModelAndView mav) {
 		int result =adminMainDao.test();
