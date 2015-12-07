@@ -31,7 +31,7 @@ public class AdminMainDaoImp implements AdminMainDao {
 
 	@Override
 	public int test() {
-		// 트랜잭션처리시 필요한 객체
+		// 트랜잭션처리시 필요한 객체 입니다. 우헤헤..
 		TransactionDefinition definition = new DefaultTransactionDefinition();
 		TransactionStatus status=transactionManager.getTransaction(definition);
 		int result=0;
